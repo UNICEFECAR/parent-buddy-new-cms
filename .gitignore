@@ -29,5 +29,22 @@
 /docroot/themes/contrib
 
 # Ignore Composer-managed dependencies.
-vendor/
+/vendor/
+/salt.txt
+/docroot/.csslintrc
+/.editorconfig
+/.gitattributes
+/LICENSE.txt
+/docroot/.eslintignore
+/docroot/.eslintrc.json
+/docroot/.ht.router.php
+/docroot/.htaccess
+/docroot/autoload.php
+/docroot/example.gitignore
+/docroot/index.php
+/docroot/INSTALL.txt
+/docroot/README.txt
+/docroot/robots.txt
+/docroot/update.php
+/docroot/web.config
 
