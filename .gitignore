@@ -34,6 +34,7 @@
 /docroot/.csslintrc
 /.editorconfig
 /.gitattributes
+/files-private
 /LICENSE.txt
 /docroot/.eslintignore
 /docroot/.eslintrc.json
