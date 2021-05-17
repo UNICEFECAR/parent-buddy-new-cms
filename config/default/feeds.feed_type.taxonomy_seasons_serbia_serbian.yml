@@ -1,15 +1,15 @@
-uuid: 1cf80335-94bf-46d3-9e58-46240f2a692b
+uuid: 75a628dd-9aa7-43c1-a537-5267781f8a35
 langcode: en
 status: true
 dependencies:
   config:
-    - core.base_field_override.taxonomy_term.keywords.name
-    - taxonomy.vocabulary.keywords
+    - core.base_field_override.taxonomy_term.seasons.name
+    - taxonomy.vocabulary.seasons
   module:
     - taxonomy
-id: taxonomy_keywords
-label: 'Taxonomy - Keywords'
-description: 'Taxonomy - Keywords'
+id: taxonomy_seasons_serbia_serbian
+label: 'Taxonomy - Seasons - serbia-serbian'
+description: 'Taxonomy - Seasons - serbia-serbian'
 help: ''
 import_period: 3600
 fetcher: upload
@@ -23,21 +23,17 @@ parser_configuration:
   line_limit: 100
 processor: 'entity:taxonomy_term'
 processor_configuration:
-  langcode: en
+  langcode: rs-sr
   update_existing: 1
   update_non_existent: _keep
   expire: -1
   skip_hash_check: false
   values:
-    vid: keywords
+    vid: seasons
   owner_id: 0
   authorize: false
   owner_feed_author: false
 custom_sources:
-  '':
-    label: ''
-    value: ''
-    machine_name: ''
   term_id:
     label: Term_ID
     value: Term_ID
@@ -46,10 +42,6 @@ custom_sources:
     label: Term_name
     value: Term_name
     machine_name: term_name
-  language_code:
-    label: Language_code
-    value: Language_code
-    machine_name: language_code
 mappings:
   -
     target: tid
@@ -64,10 +56,4 @@ mappings:
       value: term_name
     unique: {  }
     settings:
-      language: null
-  -
-    target: langcode
-    map:
-      value: language_code
-    settings:
-      language: null
+      language: rs-sr

@@ -23,6 +23,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  feeds_item: true
   field_media_oembed_video: true
   field_video_embed_url: true
   name: true

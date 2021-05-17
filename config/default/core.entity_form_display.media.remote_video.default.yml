@@ -59,5 +59,6 @@ content:
     region: content
     third_party_settings: {  }
 hidden:
+  feeds_item: true
   field_media_oembed_video: true
   name: true

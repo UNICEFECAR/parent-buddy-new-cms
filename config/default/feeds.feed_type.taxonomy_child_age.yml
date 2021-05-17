@@ -24,7 +24,7 @@ parser_configuration:
 processor: 'entity:taxonomy_term'
 processor_configuration:
   langcode: en
-  update_existing: 0
+  update_existing: 1
   update_non_existent: _keep
   expire: -1
   skip_hash_check: false
@@ -60,10 +60,4 @@ mappings:
       value: term_name
     unique: {  }
     settings:
-      language: null
-  -
-    target: langcode
-    map:
-      value: language_code
-    settings:
-      language: null
+      language: en

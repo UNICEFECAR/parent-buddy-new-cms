@@ -28,6 +28,7 @@ content:
     region: content
 hidden:
   created: true
+  feeds_item: true
   field_media_oembed_video: true
   langcode: true
   name: true
